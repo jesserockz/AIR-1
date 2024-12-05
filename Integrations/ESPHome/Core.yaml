@@ -247,7 +247,6 @@ sensor:
     voc:
       name: "SEN55 VOC"
       id: sen55_voc
-      device_class: volatile_organic_compounds_parts
       algorithm_tuning:
         #https://sensirion.com/media/documents/25AB572C/62B463AA/Sensirion_Engineering_Guidelines_SEN5x.pdf
         index_offset: 100
